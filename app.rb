@@ -16,7 +16,7 @@ class App < Sinatra::Base
   # Code your final two routes here:
   
   get '/goodbye' do 
-    "Goodbye #{name}."
+    "Goodbye, #{name}."
   end
   
   get '/goodbye/:name' do
